@@ -24,10 +24,11 @@ Next, I will create a main.tf file and define the resources I will use. Each s
 
 
 I need to create a providers.tf file to define which cloud-based service I will be deploying into:
+
 Step 3 — Deploying our AWS Resources
 Having created my three terraform files, I am ready to move forward with deployment.
 Every terraform deployment starts with running the command ‘terraform init’- This command initializes the working directory containing Terraform configuration files and downloads any necessary provider modules.
-￼
+
 Next, I run the ‘terraform plan’ command — This shows what changes will be applied to infrastructure. This step is important because it allows you to review and confirm the changes before applying them.
 
 Next, I run the ‘terraform apply’ command, which will deploy our infrastructure. If this plan was modifying an existing deployment, terraform would automatically tear-down or redeploy new resources based on the changes in my main.tf from the last deployment.
@@ -35,7 +36,7 @@ Next, I run the ‘terraform apply’ command, which will deploy our infrastruct
 Step 4 — Verifying our Jenkins Deployment and S3 Bucket Permissions
 Once your Terraform configuration has been applied and your EC2 instance is running, you can access Jenkins by navigating to the public IP address of your instance followed by “:8080” in your web browser:
 http://3.137.217.213:8080
-￼
+
 I can also that my Jenkins instance has S3 read & write permissions via the CLI by testing some read and write commands by logging in to my instance and running some commands using the AWS CLI.
 First, I will configure the AWS CLI on your instance. You will also need to input your AWS Access Key ID, Secret Access Key, Default region, and output format
 aws configure
