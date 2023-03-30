@@ -55,6 +55,8 @@ aws s3 ls s3://jenkins-artifacts-f8ce49d3
 
 Last, I will visit my S3 Bucket to also verify that to ensure that the file we copied is visible in my bucket:
 
+<img width="755" alt="Screenshot 2023-03-30 at 18 21 01" src="https://user-images.githubusercontent.com/67044030/228933039-b1c4fd5f-2947-4093-8b28-64bfa6ed0cb4.png">
+
 Thanks for following along! Remember to tear-down your architecture when you are done to avoid incurring unnecessary costs! In terraform, we do this by using the ‘terraform destroy’ command:
 terraform destroy
 
