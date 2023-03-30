@@ -60,3 +60,5 @@ Last, I will visit my S3 Bucket to also verify that to ensure that the file we c
 Thanks for following along! Remember to tear-down your architecture when you are done to avoid incurring unnecessary costs! In terraform, we do this by using the ‘terraform destroy’ command:
 terraform destroy
 
+<img width="746" alt="Screenshot 2023-03-30 at 18 24 57" src="https://user-images.githubusercontent.com/67044030/228933431-a6669136-80bc-414d-bcdb-fb47180db166.png">
+
