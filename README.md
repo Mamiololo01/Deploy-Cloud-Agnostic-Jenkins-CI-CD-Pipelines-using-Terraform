@@ -34,6 +34,9 @@ Next, I run the ‘terraform plan’ command — This shows what changes will 
 Next, I run the ‘terraform apply’ command, which will deploy our infrastructure. If this plan was modifying an existing deployment, terraform would automatically tear-down or redeploy new resources based on the changes in my main.tf from the last deployment.
 
 Step 4 — Verifying our Jenkins Deployment and S3 Bucket Permissions
+
+<img width="902" alt="Screenshot 2023-03-30 at 18 14 43" src="https://user-images.githubusercontent.com/67044030/228932324-6bfe31e6-e2c9-4652-91c8-adc607090749.png">
+
 Once your Terraform configuration has been applied and your EC2 instance is running, you can access Jenkins by navigating to the public IP address of your instance followed by “:8080” in your web browser:
 http://3.137.217.213:8080
 
