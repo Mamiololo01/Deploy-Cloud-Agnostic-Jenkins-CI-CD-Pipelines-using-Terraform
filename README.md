@@ -7,9 +7,9 @@ In this tutorial, I am going to walk you thru how you can leverage a cloud-agnos
 Note: While I will be using AWS’ Cloud9 IDE and deploying to AWS for this tutorial, you can follow along on your own IDE and with a few simple tweaks to your main.tf file, you can deploy to dozens of cloud providers
 Let’s begin:
 Pre-Requisites
-* 		Basic knowledge of Terraform commands
-* 		Terraform installed within your CLI
-* 		AWS CLI configured in your IDE to allow Terraform access to resources via your account
+Basic knowledge of Terraform commands
+Terraform installed within your CLI
+AWS CLI configured in your IDE to allow Terraform access to resources via your account
 
 Step 1 — Initializing Terraform
 Login to your CLI and create a new directory for your project and initialize a new Terraform configuration:
