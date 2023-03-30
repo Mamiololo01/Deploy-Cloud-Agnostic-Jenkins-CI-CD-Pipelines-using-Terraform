@@ -55,6 +55,9 @@ Hello World file was successfully created on EC2 and then moved to S3 bucket
 Next, I will test the read permissions of my EC2 instance by listing the contents of my S3 bucket:
 aws s3 ls s3://jenkins-artifacts-f8ce49d3
 
+
+<img width="725" alt="Screenshot 2023-03-30 at 18 23 33" src="https://user-images.githubusercontent.com/67044030/228934141-cae3b42a-d72e-4050-8d50-91e54ad1af7c.png">
+
 Last, I will visit my S3 Bucket to also verify that to ensure that the file we copied is visible in my bucket:
 
 <img width="755" alt="Screenshot 2023-03-30 at 18 21 01" src="https://user-images.githubusercontent.com/67044030/228933039-b1c4fd5f-2947-4093-8b28-64bfa6ed0cb4.png">
