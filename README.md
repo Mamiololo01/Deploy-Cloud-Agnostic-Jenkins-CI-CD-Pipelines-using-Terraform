@@ -37,6 +37,8 @@ Step 4 — Verifying our Jenkins Deployment and S3 Bucket Permissions
 Once your Terraform configuration has been applied and your EC2 instance is running, you can access Jenkins by navigating to the public IP address of your instance followed by “:8080” in your web browser:
 http://3.137.217.213:8080
 
+<img width="1240" alt="Screenshot 2023-03-30 at 18 13 08" src="https://user-images.githubusercontent.com/67044030/228931921-ed804e74-2828-41ff-82b5-a56462819f77.png">
+
 I can also that my Jenkins instance has S3 read & write permissions via the CLI by testing some read and write commands by logging in to my instance and running some commands using the AWS CLI.
 First, I will configure the AWS CLI on your instance. You will also need to input your AWS Access Key ID, Secret Access Key, Default region, and output format
 aws configure
