@@ -33,6 +33,8 @@ Next, I run the ‘terraform plan’ command — This shows what changes will 
 
 Next, I run the ‘terraform apply’ command, which will deploy our infrastructure. If this plan was modifying an existing deployment, terraform would automatically tear-down or redeploy new resources based on the changes in my main.tf from the last deployment.
 
+<img width="816" alt="Screenshot 2023-03-30 at 18 17 15" src="https://user-images.githubusercontent.com/67044030/228933669-40a20837-aa49-4e00-9511-abe12dbb7db2.png">
+
 Step 4 — Verifying our Jenkins Deployment and S3 Bucket Permissions
 
 <img width="902" alt="Screenshot 2023-03-30 at 18 14 43" src="https://user-images.githubusercontent.com/67044030/228932324-6bfe31e6-e2c9-4652-91c8-adc607090749.png">
