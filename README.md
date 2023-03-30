@@ -29,7 +29,7 @@ Step 3 — Deploying our AWS Resources
 Having created my three terraform files, I am ready to move forward with deployment.
 Every terraform deployment starts with running the command ‘terraform init’- This command initializes the working directory containing Terraform configuration files and downloads any necessary provider modules.
 
-Next, I run the ‘terraform plan’ command — This shows what changes will be applied to infrastructure. This step is important because it allows you to review and confirm the changes before applying them.
+Next, I run the "terraform validate" command to confirm that the configurations are fine and then run ‘terraform plan’ command — This shows what changes will be applied to infrastructure. This step is important because it allows you to review and confirm the changes before applying them.
 
 Next, I run the ‘terraform apply’ command, which will deploy our infrastructure. If this plan was modifying an existing deployment, terraform would automatically tear-down or redeploy new resources based on the changes in my main.tf from the last deployment.
 
